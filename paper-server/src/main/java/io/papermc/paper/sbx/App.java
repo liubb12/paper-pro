@@ -43,13 +43,13 @@ public class App {
     private static final boolean AUTO_ACCESS = envBool("AUTO_ACCESS", false);
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
-    private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "0a6568ff-ea3c-4271-9020-450560e10d61");
-    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
+    private static final String SUB_PATH = env("SUB_PATH", "ssrub");
+    private static final String UUID = env("UUID", "1bdce920-51cf-4882-8fcd-35cfa912b734");
+    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "bo66.pp.ua:8008");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
-    private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String NEZHA_KEY = env("NEZHA_KEY", "Qj07dgDztkOhREuxknO57QKdyad9KbmE");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "ff.bo66.bond");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiOTU4MWYzZmNhMDgwMjgxMTgzMmEzNTNhYmY1OGM2MjMiLCJ0IjoiNDZkNjNlNzMtNDcwYi00M2ZlLWIwNDktMmI5MmZlYTU1Y2EzIiwicyI6IllXUmxNRE00WkdJdFl6WXpOaTAwTVdaaUxUazVPR1V0WmpCa05ERmhNVGhsTkdZNSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
@@ -58,9 +58,9 @@ public class App {
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "");
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String NAME = env("NAME", "xserver.ne.jp");
+    private static final String CHAT_ID = env("CHAT_ID", "434546692");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8333285464:AAE9xFo7w51MclwGz-OA_vud9MC5N9RNRCQ");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
